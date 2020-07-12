@@ -1,0 +1,137 @@
+/*
+Primary color: #03E0FF
+Secondary(1)color: #1550FF
+Secondary(2)-color: #FFAE00 
+Complimentary color: #FF7A00
+*/
+@font-face {
+  font-family:'Mono';
+  src: url('Fonts/DM_MONO/DMMono-Regular.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: 'openSans';
+  src: url('Fonts/Open_Sans/OpenSans-Regular.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+body {
+  background-color: #03E0FF;
+}
+
+.backImage {
+background-image: url('assets/ThreePenguins.jpg');
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+div {
+  margin: auto;
+  max-width: 5500px;
+}
+div > p a {
+  color:  #FF7A00;
+}
+
+.header {
+  text-align: center;
+  background: #1550FF;
+  top: 0;
+}
+
+footer {
+  background-color: #1550FF;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+}
+
+.imgDiv {
+float: left;
+width: 33%;
+padding: 5px;
+}
+
+h1 {
+  color: #FF7A00;
+  text-align: center;
+  font-size: 320%;
+} 
+
+h2 {
+  color:  #FF7A00;
+  text-align: center;
+  font-style: oblique;
+  font-size: 220%;
+}
+
+h3 {
+color: #FF7A00;
+text-align: center;
+font-style: oblique;
+font-size: 180%;
+}
+
+h6 {
+  color: #FF7A00;
+  text-align: center;
+}
+
+audio {
+  border: 3px dotted #FF7A00;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: 'openSans', Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  color: #FFAE00;
+  text-align:center;
+  margin-left: 150px;
+  margin-right:150px;
+}
+
+a {
+  color: #FF7A00;
+}
+
+
+figcaption {
+  text-align:center;
+  color: #FFAE00;
+  font-size: 120%;
+}
+
+#bigHeader {
+  color: #FF7A00;
+  font-family: 'Mono', Arial, Helvetica, sans-serif;
+}
+
+figure {
+text-align: center;
+font-size: 120%;
+}
+
+figure a {
+  color: #FF7A00 ;
+  font-size: 120%;
+}
+
+strong {
+  color: #FF7A00 ;
+}
+
+em {
+  color: #FF7A00;
+}
